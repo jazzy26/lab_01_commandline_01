@@ -17,7 +17,8 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-
+Desktop		Downloads	Movies		My Song.band	Public		Things		vms
+Documents	Library		Music		Pictures	Sites		VirtualBox VMs
 
 
 ==========
@@ -27,19 +28,25 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-
+A list of hidden files and Directories
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-
+.CFUserTextEncoding  .cache/              .freemind/           .xwcafmtrc           My Song.band/
+.DS_Store            .config/             .replicatorg/        Desktop/             Pictures/
+.Trash/              .cups/               .rnd                 Documents/           Public/
+.Xauthority          .dia/                .serverauth.3009     Downloads/           Sites/
+.adobe/              .dia-etc/            .ssh/                Library/             Things/
+.android/            .eclipse/            .thumbnails/         Movies/              VirtualBox VMs/
+.bash_history        .fontconfig/         .vagrant.d/          Music/               vms/
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
+ls: D: No such file or directory
 
 
 ==========
@@ -49,7 +56,8 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+drwx------@  9 student  staff   306 Feb  5 18:59 Desktop
+drwx------+ 29 student  staff   986 Jan 31 18:25 Documents
 
 
 ==========
@@ -59,7 +67,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+.			.bash_history		.freemind		Desktop			Public
+..			.cache			.replicatorg		Documents		Sites
 
 
 ==========
@@ -69,7 +78,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
+ls -a
 
 
 ==========
@@ -79,7 +88,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+ls
 
 
 ==========
@@ -99,38 +108,38 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
+ls: doesnotexist: No such file or directory
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+up arrow
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
+-a 
 
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+tab
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
+ls
 
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
 
-
+Desktop
 
 ==========
 14.  Type:
@@ -139,7 +148,7 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
-
+-bash: foo: command not found
 
 
 ==========
@@ -149,7 +158,7 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
-
+-bash: foo: command not found
 
 
 ==========
@@ -159,3 +168,7 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+Command- ls
+Flag- -a
+Argument- Desktop
+Prompt- $
